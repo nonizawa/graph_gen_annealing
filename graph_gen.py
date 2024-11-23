@@ -122,12 +122,11 @@ def save_nonzero_elements_with_metadata_as_txt(G, num_nodes, optimal_value, file
             if weight != 0:
                 file.write(f"{u} {v} {weight}\n")
 
-
 # Create the directory if it does not exist
 os.makedirs('./matrix', exist_ok=True)
 
 # Generate the problem
-num_nodes = 4  # Number of nodes
+num_nodes = 5  # Number of nodes
 edge_density = 1  # Edge density
 weight_range = (-1, 1)  # Range of edge weights (integers)
 G = generate_maxcut_problem(num_nodes, edge_density, weight_range)

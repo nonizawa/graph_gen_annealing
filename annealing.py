@@ -115,13 +115,18 @@ def save_summary(data, file_path="./result/result.csv"):
         writer.writerow(data)
 
 def main():
-    graph_file = './matrix/sparse_N4_WL-1_WH1_D1.txt'
+    num_nodes = 5  # Number of nodes
+    edge_density = 1  # Edge density
+    weight_range = (-1, 1)  # Range of edge weights (integers)
+    
     cycle, trial, tau = 100, 1, 1
     gamma, delta = 0.1, 10  # Parameters for pSA
     rand_type = 0  # 0: normal distribution, 1: Poisson
     control = 1  # 0: normal, 1: static
     algorithm = 0  # 0: pSA, 1: SSA
     node_index = 0  # Node index for plotting
+
+    graph_file = f'./matrix/sparse_N{num_nodes}_WL{weight_range[0]}_WH{weight_range[1]}_D{edge_density}.txt'
 
     # Create directories if they do not exist
     os.makedirs('./history', exist_ok=True)
