@@ -108,6 +108,42 @@ Ensure that the `output` directory exists or modify the paths in the scripts/not
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Contributing
-Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request.
+
+## Contact
+
+For any questions, issues, or inquiries, feel free to create an issue in the repository or contact the repository owner [@nonizawa](https://github.com/nonizawa).
+
+## Citation
+
+This paper describes the SSA algorithm:
+```bibtex
+@ARTICLE{9743572,
+  author={Onizawa, Naoya and Katsuki, Kota and Shin, Duckgyu and Gross, Warren J. and Hanyu, Takahiro},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Fast-Converging Simulated Annealing for Ising Models Based on Integral Stochastic Computing}, 
+  year={2023},
+  volume={34},
+  number={12},
+  pages={10999-11005},
+  doi={10.1109/TNNLS.2022.3159713}}
+```
+his paper describes the pSA algorithm:
+```bibtex
+
+@article{cite-key,
+	Author = {Onizawa, Naoya and Hanyu, Takahiro},
+	Da = {2024/01/16},
+	Doi = {10.1038/s41598-024-51639-x},
+	Id = {Onizawa2024},
+	Isbn = {2045-2322},
+	Journal = {Scientific Reports},
+	Number = {1},
+	Pages = {1339},
+	Title = {Enhanced convergence in p-bit based simulated annealing with partial deactivation for large-scale combinatorial optimization problems},
+	Ty = {JOUR},
+	Url = {https://doi.org/10.1038/s41598-024-51639-x},
+	Volume = {14},
+	Year = {2024},
+	Bdsk-Url-1 = {https://doi.org/10.1038/s41598-024-51639-x}}
+```
 
