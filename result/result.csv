@@ -4,3 +4,5 @@ algorithm,graph,#node,Optimal value,gamma,delta,rand_type,mean,max,min,mean%,max
 0,./matrix/sparse_N5_WL-1_WH1_D1.txt,5,2,0.1,10,0,-2.0,-2,-2
 0,./matrix/sparse_N5_WL-1_WH1_D1.txt,5,2,0.1,10,0,-2.0,-2,-2
 0,./matrix/sparse_N5_WL-1_WH1_D1.txt,5,2,0.1,10,0,0.0,0,0
+0,./matrix/sparse_N6_WL-1_WH1_D1.txt,6,9,0.1,10,0,3.0,3,3
+0,./matrix/sparse_N4_WL-1_WH1_D1.txt,4,3,0.1,10,0,1.0,1,1
