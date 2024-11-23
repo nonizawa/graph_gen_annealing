@@ -1,4 +1,4 @@
-# graph-gen-annealing
+# MAX-CUT graph generator and simulated annealing based on p-bits
 
 This repository contains code and a Jupyter Notebook for generating graphs and running simulated annealing.
 
@@ -63,6 +63,8 @@ Modify these parameters in the corresponding Python files or directly in the Jup
 Follow these steps:
 1. Open the notebook in Jupyter.
 2. Execute each cell in sequence by pressing `Shift + Enter`.
+![Notebook Example](images/parameter.png)
+![Notebook Example](images/graph.png)
 3. Observe the results and save outputs as needed.
 
 ### 7. Output Files
