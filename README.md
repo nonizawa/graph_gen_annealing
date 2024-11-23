@@ -48,8 +48,8 @@ Modify these parameters in the corresponding Python files or directly in the Jup
 
 #### `annealing` Parameters
 - **`algorithm`**: Choose the algorithm to use
-  - `0`: pSA (Probabilistic Simulated Annealing)
-  - `1`: SSA (Simulated Spin Annealing)
+  - `0`: pSA (Simulated annealing based on p-bits)
+  - `1`: SSA (Stochastic simulated annealing)
 - **`gamma, delta`**: Hyperparameters for pSA
   - Example: `gamma = 0.1`, `delta = 10`
 - **`rand_type`**: Type of random generation
@@ -64,8 +64,8 @@ Follow these steps:
 1. Open the notebook in Jupyter.
 2. Execute each cell in sequence by pressing `Shift + Enter`.
 ![Notebook Example](images/parameter.png)
-![Notebook Example](images/graph.png)
 3. Observe the results and save outputs as needed.
+![Notebook Example](images/graph.png)
 ![Notebook Example](images/energy.png)
 ![Notebook Example](images/spin_node.png)
 
