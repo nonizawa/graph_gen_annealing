@@ -101,10 +101,10 @@ def plot_results(energy_history, spin_history, node_index=0):
     plt.grid()
     plt.show()
 
-def save_summary(data, file_path="./result/result_pSA.csv"):
+def save_summary(data, file_path="./result/result.csv"):
     os.makedirs("./result", exist_ok=True)
     header = [
-        'graph', '#node', 'Optimal value', 'gamma', 'delta', 'rand_type', 
+        'algorithm', 'graph', '#node', 'Optimal value', 'gamma', 'delta', 'rand_type', 
         'mean', 'max', 'min', 'mean%', 'max%', 'sim_time'
     ]
     write_header = not os.path.isfile(file_path)
@@ -163,7 +163,7 @@ def main():
     plot_results(energy_history, spin_history, node_index)
 
     cut_avg = cut_sum / trial
-    data = [graph_file, vertex, optimal_value, gamma, delta, rand_type, cut_avg, max(cut_list), min(cut_list)]
+    data = [algorithm, graph_file, vertex, optimal_value, gamma, delta, rand_type, cut_avg, max(cut_list), min(cut_list)]
     save_summary(data)
     print("Results saved.")
 
