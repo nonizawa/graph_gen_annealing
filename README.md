@@ -27,22 +27,25 @@ Launch the Jupyter Notebook server and open the notebook file:
 jupyter notebook graph_gen_annealing.ipynb
 ```
 
-### 4. Run the Notebook
+### 4. Configure Parameters
+In the notebook, you can adjust the following parameters to customize the graph generation and annealing process:
+
+- **`num_nodes`**: Number of nodes in the graph.
+- **`annealing_steps`**: Number of steps for the simulated annealing algorithm.
+- **`temperature`**: Initial temperature for annealing.
+- **`cooling_rate`**: The rate at which the temperature decreases.
+
+Modify these parameters in the first few cells of the notebook, then execute the notebook to see the results.
+
+### 5. Run the Notebook
 Follow these steps:
 1. Open the notebook in Jupyter.
 2. Execute each cell in sequence by pressing `Shift + Enter`.
-3. Modify parameters in the notebook as needed to customize the graph generation and annealing process.
+3. Observe the results and save outputs as needed.
 
-### 5. Save Results
-Save your generated graphs or simulation results as directed within the notebook.
-
-## Requirements
-- Python 3.x
-- Jupyter Notebook
-- Required Python libraries (see notebook for details)
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request.
 
-## License
-Feel free to customize the license type.
